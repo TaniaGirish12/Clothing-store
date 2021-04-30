@@ -53,8 +53,10 @@ header{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: 40px;
+	padding-right: 130px;
 	border-radius: 10px;
+    padding-top:25px;
+    
 }
 
 .header-menu{
@@ -182,6 +184,7 @@ header{
     align-items: center;
     flex-direction: column;
     z-index: 102;
+    
 }
 
 .login-form,
@@ -216,6 +219,7 @@ header{
     text-transform: uppercase;
     letter-spacing: 0.5px;
     font-weight: 500;
+    font-family: Verdana;
 }
 
 .login-form input,
@@ -232,11 +236,12 @@ header{
 .login-form input::placeholder,
 .sign-up-form input::placeholder{
     color: rgba(0,0,0,0.5);
+    font-family: Verdana;
 }
 
 .login-form input[type="submit"],
 .sign-up-form input[type="submit"]{
-    background-color: #0b9d8a;
+    background-color: #6e64ff;
     color: #ffffff;
     border: none;
     outline: none;
@@ -244,6 +249,7 @@ header{
     margin-top: 10px;
     border-radius: 3px;
     box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    font-family: Verdana;
 }
 
 .form-btns{
@@ -257,6 +263,7 @@ header{
 .form-btns a{
     color: #4d4d4d;
     font-size: 0.9rem;
+    font-family: Verdana;
 }
 
 .sign-up-btn{
